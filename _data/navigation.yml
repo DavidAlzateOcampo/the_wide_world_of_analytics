@@ -1,11 +1,14 @@
 # main links
+# https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Machine Learning"
+    url: /ml_table/
+  - title: "ML"
+    url: /pages/ml_table/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

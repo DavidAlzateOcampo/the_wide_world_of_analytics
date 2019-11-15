@@ -73,14 +73,14 @@ docs:
 sidebar-Analytics:
   - title: "Statistics"
     children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /
+      - title: "Linear Regression"
+        url: /stat/linerRegression/
+      - title: "Classification"
+        url: /stat/classification/
+      - title: "Dimension Reduction"
+        url: /stat/dimensionReduction/
+      - title: "Theory"
+        url: /stat/theory/
   - title: "Cheat Sheets"
     children:
       - title: "R"
@@ -95,13 +95,13 @@ sidebar-Analytics:
         url: /
   - title: "Machine Learning Algorithms"
     children:
-      - title: "Child Page C1"
+      - title: "Supervised Algorithms"
         url: /
-      - title: "Child Page C2"
+      - title: "Unsupervised Algorithms"
         url: /
-      - title: "Child Page C3"
+      - title: "Reinforcement Learning"
         url: /
-      - title: "Child Page C4"
+      - title: "Reducing"
         url: /
       - title: "Child Page C5"
         url: /

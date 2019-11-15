@@ -1,0 +1,117 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+theme: "minimal-mistakes-jekyll"
+#remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+title: "The Wide World of Analytics"
+title_separator: "|"
+subtitle: "Version 0.0"
+name: "David Alzate"
+description: "This site intent to gather the information about Analytics and all its branches."
+
+
+url: "https://davidalzateocampo.github.io"
+baseurl: "/the_wide_world_of_analytics"
+teaser: "/assets/images/brain-network-coherence-660x444.png"
+#logo: "/assets/images/88x88.png"
+masthead_title: "The wide world of analytics"
+#permalink: /:categories/:title/
+moderation: false
+
+search: false 
+# Coming in next version the GOOGLE SEARCH ENGINE
+#https://cse.google.com/cse/all
+# https://www.google.com/webmasters/tools/
+# https://support.google.com/analytics/answer/1142414?hl=en
+#var cx = 'YOUR_SEARCH_ENGINE_ID'
+#google:
+#  search_engine_id: YOUR_SEARCH_ENGINE_ID
+#  google_site_verification: "yourVerificationCode"
+
+twitter:
+  username: "futix13"
+
+# Site Author
+author:
+  name             : "David Alzate"
+  avatar           : "/assets/images/DavidAvatar.png" 
+  bio              : "I am an developer and data science enthusiastic."
+  location         : "Bogota, Colombia"
+  email            : "joalzate@deloitte.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:joalzate@deloitte.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://davidalzateocampo.github.io/the_wide_world_of_analytics/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/futix13"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://davidalzateocampo.github.io/"
+
+# Outputting
+permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+ jekyll-archives:
+   enabled:
+     - categories
+     - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
+
+# Continue configuration :
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/

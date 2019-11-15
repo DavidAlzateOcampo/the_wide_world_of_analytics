@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "David Alzaete"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I am an developer and data science enthusiastic."
   location         : "Bogota, Colombia"
   email            : "joalzate@deloitte.com"
   links:
@@ -118,16 +118,16 @@ author:
       url: mailto:joalzate@deloitte.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://davidalzateocampo.github.io/the_wide_world_of_analytics/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/futix13"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://davidalzateocampo.github.io/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,13 +137,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/futix13"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://davidalzateocampo.github.io/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

@@ -84,7 +84,7 @@ sidebar-Analytics:
   - title: "Cheat Sheets"
     children:
       - title: "R"
-        url: /
+        url: /cheat_sheets/R/
       - title: "Python"
         url: /
       - title: "Tensorflow"

@@ -14,4 +14,4 @@ sidebar:
 |  :computer:  [R-Shinny](https://github.com/rstudio/cheatsheets/raw/master/shiny.pdf) | If you’re ready to build interactive web apps with R, say hello to Shiny. This cheat sheet provides a tour of the Shiny package and explains how to build and customize an interactive app. Be sure to follow the links on the sheet for even more information. |
 |  :wrench:  [deployr](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf) | dplyr and tidyverse can be the best libraries for data wrangling. Especially deployr gives a grammar ability to manage dataframes in R provides a grammar for manipulating tables in R. |
 
-Testing new 
+Testing new - David

@@ -1,7 +1,9 @@
 ---
 title: "Google Data Studio: Dashboard using Bigquery"
 categories:
-  - Edge Case
+  - Google Cloud
+  - Google Data Studio
+  - Bigquery
 tags:
   - content
   - css

@@ -32,7 +32,8 @@ Steps to create the dashboard can be summarize in the following steps.
 
 ## 2. Prepare the data set information to upload
 
-* We will use python to download the file and organize the data.
+* We will use python to download the file and organize the data. 
+Here is the code to create 3 CSV files to upload the data in BigQuery
 
 ```python
 import pandas as pd
@@ -53,6 +54,12 @@ for i in range(3):
 ```
 
 ## 2. Create a project in Google Cloud Console
+
+* We will go and create a project in google cloud. If you don't have an account you can go to this [link](https://www.youtube.com/watch?v=P2ADJdk5mYo "The Google Cloud Platform Free Trial and Free Tier - Don't confuse them")   
+
+* We will go to google cloud account in this [link](   )
+![Test Image 1](https://drive.google.com/file/d/1jDT3gntc7_BCMoITf6IR2GtLQGcKDePp/view?usp=sharing)
+
 
 ## 3. Create a Bigquery instance and upload the data set
 ## 4. Create a Data Studio dashboard from Bigquery

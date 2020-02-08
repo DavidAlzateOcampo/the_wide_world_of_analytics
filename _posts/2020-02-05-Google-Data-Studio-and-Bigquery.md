@@ -33,11 +33,13 @@ Steps to create the dashboard can be summarize in the following steps.
 ### Prepare the data set information to upload
 
 1. We will use python to download the file and organize the data.
+
 ```python
 import pandas as pd
 import numpy as np
 import datetime as dt
 
+filenamepath = 'C:/Users/David/Downloads/Python_aggr_beer_2007_2018_table_'
 linkfile= 'https://www.ttb.gov/images/pdfs/statistics/aggregated/aggr-data-beer_2007-2018.xlsx'
 for i in range(3):
     print('iteration number = ',i+1)
@@ -48,7 +50,7 @@ for i in range(3):
         dataMelt = data.melt(id_vars='State',var_name='Year')
     else:
         dataMelt = data.melt(id_vars='STATE',var_name='Year')
-    filename = 'C:/Users/David/Downloads/Python_aggr_beer_2007_2018_table_'+ str(i) +'.csv'
+    filename = filenamepath + str(i) +'.csv'
     dataMelt.to_csv(filename)
 ```
 2. ordered item 

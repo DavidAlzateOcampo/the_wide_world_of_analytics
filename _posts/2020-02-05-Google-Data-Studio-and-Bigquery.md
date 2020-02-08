@@ -59,7 +59,7 @@ for i in range(3):
 
 * We will go to google cloud account in this [link](   )
 ![Test Image 1]()
-![Screenshot](https://drive.google.com/file/d/1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF/view?usp=sharing)
+![Screenshot](https://drive.google.com/file/d/1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF/view)
 
 
 ## 3. Create a Bigquery instance and upload the data set

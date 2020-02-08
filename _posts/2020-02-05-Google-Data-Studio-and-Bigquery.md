@@ -58,7 +58,8 @@ for i in range(3):
 * We will go and create a project in google cloud. If you don't have an account you can go to this [link](https://www.youtube.com/watch?v=P2ADJdk5mYo "The Google Cloud Platform Free Trial and Free Tier - Don't confuse them")   
 
 * We will go to google cloud account in this [link](   )
-![Test Image 1](https://drive.google.com/file/d/1jDT3gntc7_BCMoITf6IR2GtLQGcKDePp/view?usp=sharing)
+![Test Image 1]()
+![Screenshot](https://drive.google.com/file/d/1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF/view?usp=sharing)
 
 
 ## 3. Create a Bigquery instance and upload the data set

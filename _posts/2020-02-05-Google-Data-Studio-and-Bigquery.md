@@ -38,13 +38,12 @@ Here is the code to create 3 CSV files to upload the data in BigQuery
 ```python
 import pandas as pd
 import numpy as np
-import datetime as dt
 
 filenamepath = 'C:/Users/David/Downloads/Python_aggr_beer_2007_2018_table_'
 linkfile= 'https://www.ttb.gov/images/pdfs/statistics/aggregated/aggr-data-beer_2007-2018.xlsx'
 for i in range(3):
     data = pd.read_excel(linkfile,sheet_name=i,header=0,skiprows=7,usecols = list(range(13)),nrows=5)
-    data.drop(datsa.index[0],inplace = True)
+    data.drop(data.index[0],inplace = True)
     if i >= 1:
         dataMelt = data.melt(id_vars='State',var_name='Year')
     else:
@@ -59,7 +58,8 @@ for i in range(3):
 
 * We will go to google cloud account in this [link](   )
 ![Test Image 1]()
-![Screenshot](https://drive.google.com/file/d/1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF/view)
+![Screenshot2](https://drive.google.com/file/d/1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF/view)
+![Screenshot3](https://drive.google.com/uc?export=view&id=1zZbIAy5MSTdF8QHKwsEsWMO0bD7DojnF)
 <img src="https://drive.google.com/file/d/0B6wwyazyzml-OGQ3VUo0Z2thdmc/view">
 
 
